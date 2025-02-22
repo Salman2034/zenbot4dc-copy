@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ZenBot - Commands">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" href="assets/zenbot.webp" type="image/webp">
+    <title>ZenBot - Commands</title>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+    <style>
+        @media (max-width: 768px) {
+            .hero-small {
+                height: 100vh; /* Full height of the viewport for mobile */
+            }
+            .scroll-indicator {
+                text-align: center;
+                margin-top: 20px;
+                display: block; /* Show on mobile */
+            }
+            .scroll-indicator p {
+                color: #fff;
+                font-size: 18px;
+                margin-bottom: 10px;
+                font-weight: 500;
+            }
+            .scroll-indicator a {
+                color: #fff;
+                font-size: 30px;
+                text-decoration: none;
+                display: inline-block;
+                transition: color 0.3s ease-in-out;
+            }
+            .scroll-indicator a:hover {
+                color: #ddd;
+            }
+            .scroll-indicator span {
+                display: inline-block;
+                animation: bounce 1s infinite;
+            }
+            @keyframes bounce {
+                0%, 20%, 50%, 80%, 100% {
+                    transform: translateY(0);
+                }
+                40% {
+                    transform: translateY(-10px);
+                }
+                60% {
+                    transform: translateY(-5px);
+                }
+            }
+        }
+        @media (min-width: 769px) {
+            .scroll-indicator {
+                display: none; /* Hide on PC */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/zenbot.webp" alt="ZenBot Logo">
+                    <span>ZenBot</span>
+                </a>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="index.html#features"><i class="fas fa-cogs"></i> Features</a></li>
+                <li><a href="commands.html"><i class="fas fa-terminal"></i> Commands</a></li>
+                <li><a href="index.html#premium"><i class="fas fa-gem"></i> Premium</a></li>
+                <li><a href="index.html#changelog"><i class="fas fa-history"></i> Changelog</a></li>
+                <li><a href="index.html#team"><i class="fas fa-users"></i> Team</a></li>
+                <li><a href="index.html#faq"><i class="fas fa-question-circle"></i> FAQ</a></li>
+                <li><a href="index.html#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+            <div class="add-bot">
+                <a href="https://discord.com/oauth2/authorize?client_id=YOUR_BOT_ID&permissions=YOUR_PERMISSIONS&scope=bot" target="_blank">Add Bot</a>
+            </div>
+            <div class="hamburger-menu" id="hamburger-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero hero-small">
+            <div id="particles-js"></div> <!-- Add this line -->
+            <div class="hero-content"> <!-- Add top margin -->
+                <h1>ZenBot’s Commands</h1>
+                <p>Easily manage your community with a wide range of commands from moderation to fun and utility. ZenBot is built to make your server experience seamless and efficient.</p>
+            </div>
+            <div class="shape shape-1 circle"></div>
+            <div class="shape shape-2 square"></div>
+            <div class="shape shape-3 triangle"></div>
+            <div class="shape shape-4 line"></div>
+            <div class="shape shape-5 circle"></div>
+            <div class="shape shape-6 square"></div>
+            <div class="shape shape-7 triangle"></div>
+            <div class="shape shape-8 line"></div>
+            <div class="shape shape-9 circle"></div>
+            <div class="shape shape-10 circle"></div>
+            <div class="shape shape-11 square"></div>
+            <div class="shape shape-12 triangle"></div>
+            <div class="shape shape-13 line"></div>
+            <div class="shape shape-14 circle"></div>
+            <div class="shape shape-15 square"></div>
+            <div class="shape shape-16 h-line"></div>
+            <div class="shape shape-17 h-line"></div>
+            <div class="shape shape-18 h-line"></div>
+        </section>
+
+        <section id="commands" class="commands">
+            <h2>Commands</h2>
+            <div class="scroll-indicator">
+                <p>Scroll Down</p>
+                <span>↓</span>
+            </div>
+            <!-- Moderation Commands -->
+            <h3 class="command-category-heading"><i class="fas fa-gavel"></i> Moderation Commands</h3>
+            <div class="command-cards">
+                <div class="command-card">
+                    <p style="color: #b19cd9;">$kick @member reason</p>
+                    <p>Kick a member from the server.</p>
+                </div>
+                <div class="command-card">
+                    <p style="color: #b19cd9;">$ban @member reason</p>
+                    <p>Ban a member from the server.</p>
+                </div>
+                <div class="command-card">
+                    <p style="color: #b19cd9;">$timeout @member time reason</p>
+                    <p>Timeout a member for a specified time.</p>
+                </div>
+                <div class="command-card">
+                    <p style="color: #b19cd9;">$removetimeout @member</p>
+                    <p>Remove the timeout from a member.</p>
+                </div>
+                <div class="command-card">
+                    <p style="color: #b19cd9;">$warn @member reason</p>
+                    <p>Warn a member.</p>
+                </div>
+                <div class="command-card">
+                    <p style="color: #b19cd9;">$unwarn @member reason</p>
+                    <p>Unwarn a member.</p>
+                </div>
+                <div class="command-card">
+                    <p style="color: #b19cd9;">$showwarns @member</p>
+                    <p>Show warnings of a member.</p>
+                </div>
+                <div class="command-card">
+                    <p style="color: #b19cd9;">$clearallwarns @member reason</p>
+                    <p>Clear all warnings history of a member.</p>
+                </div>
+            </div>
+            <!-- Utility Commands -->
+            <h3 class="command-category-heading"><i class="fas fa-tools"></i> Utility Commands</h3>
+            <div class="command-cards">
+                <div class="command-card">
+                    <p style="color: #b19cd9;">$help</p>
+                    <p>Show this help message.</p>
+                </div>
+                <div class="command-card">
+                    <p style="color: #b19cd9;">$server</p>
+                    <p>Show a brief overview of the server.</p>
+                </div>
+                <div class="command-card">
+                    <p style="color: #b19cd9;">$say message</p>
+                    <p>Say a message in the channel.</p>
+                </div>
+                <div class="command-card">
+                    <p style="color: #b19cd9;">$edit channelID msgID message</p>
+                    <p>Edit a message.</p>
+                </div>
+                <div class="command-card">
+                    <p style="color: #b19cd9;">$embed title description</p>
+                    <p>Create an embed message.</p>
+                </div>
+                <div class="command-card">
+                    <p style="color: #b19cd9;">$clear amount</p>
+                    <p>Clear a specified number of messages in the channel.</p>
+                </div>
+            </div>
+            <!-- Role Commands -->
+            <h3 class="command-category-heading"><i class="fas fa-user-tag"></i> Role Commands</h3>
+            <div class="command-cards">
+                <div class="command-card">
+                    <p style="color: #b19cd9;">$giverole @member @role</p>
+                    <p>Give a role to a member.</p>
+                </div>
+                <div class="command-card">
+                    <p style="color: #b19cd9;">$removerole @member @role</p>
+                    <p>Remove a role from a member.</p>
+                </div>
+                <div class="command-card">
+                    <p style="color: #b19cd9;">$autorole @role</p>
+                    <p>Set an auto-role for new members.</p>
+                </div>
+                <div class="command-card">
+                    <p style="color: #b19cd9;">$disableautorole</p>
+                    <p>Disable auto-role.</p>
+                </div>
+                <div class="command-card">
+                    <p style="color: #b19cd9;">$roleall add/remove @role</p>
+                    <p>Add or remove a role for all members.</p>
+                </div>
+            </div>
+            <!-- Points Commands -->
+            <h3 class="command-category-heading"><i class="fas fa-coins"></i> Points Commands</h3>
+            <div class="command-cards">
+                <div class="command-card">
+                    <p style="color: #b19cd9;">$points @member</p>
+                    <p>Check points for a member.</p>
+                </div>
+                <div class="command-card">
+                    <p style="color: #b19cd9;">$givepoints @member amount reason</p>
+                    <p>Give points to a member.</p>
+                </div>
+                <div class="command-card">
+                    <p style="color: #b19cd9;">$removepoints @member amount reason</p>
+                    <p>Remove points from a member.</p>
+                </div>
+                <div class="command-card">
+                    <p style="color: #b19cd9;">$paid @member</p>
+                    <p>Reset points for a member.</p>
+                </div>
+                <div class="command-card">
+                    <p style="color: #b19cd9;">$clearallpoints</p>
+                    <p>Clear all points.</p>
+                </div>
+                <div class="command-card">
+                    <p style="color: #b19cd9;">$giveallpoints amount reason</p>
+                    <p>Give points to all members.</p>
+                </div>
+            </div>
+            <!-- Giveaway Commands -->
+            <h3 class="command-category-heading"><i class="fas fa-gift"></i> Giveaway Commands</h3>
+            <div class="command-cards">
+                <div class="command-card">
+                    <p style="color: #b19cd9;">$giveaway duration winners reward</p>
+                    <p>Start a giveaway.</p>
+                </div>
+                <div class="command-card">
+                    <p style="color: #b19cd9;">$reroll message ID</p>
+                    <p>Reroll a giveaway.</p>
+                </div>
+            </div>
+            <!-- Channel Management -->
+            <h3 class="command-category-heading"><i class="fas fa-hashtag"></i> Channel Management</h3>
+            <div class="command-cards">
+                <div class="command-card">
+                    <p style="color: #b19cd9;">$lock</p>
+                    <p>Lock the channel.</p>
+                </div>
+                <div class="command-card">
+                    <p style="color: #b19cd9;">$unlock</p>
+                    <p>Unlock the channel.</p>
+                </div>
+                <div class="command-card">
+                    <p style="color: #b19cd9;">$logs channelID</p>
+                    <p>Set the logs channel.</p>
+                </div>
+                <div class="command-card">
+                    <p style="color: #b19cd9;">$welcome channelID</p>
+                    <p>Set the welcome channel.</p>
+                </div>
+                <div class="command-card">
+                    <p style="color: #b19cd9;">$memberlogs channelID</p>
+                    <p>Set the logs channel for the points and warns related logs.</p>
+                </div>
+                <div class="command-card">
+                    <p style="color: #b19cd9;">$close</p>
+                    <p>Closes the Support Ticket.</p>
+                </div>
+            </div>
+            <!-- Fun & Interactive -->
+            <h3 class="command-category-heading"><i class="fas fa-smile"></i> Fun & Interactive</h3>
+            <div class="command-cards">
+                <div class="command-card">
+                    <p style="color: #b19cd9;">$poll time question</p>
+                    <p>Create an automated poll.</p>
+                </div>
+            </div>
+            <!-- EURP Features -->
+            <h3 class="command-category-heading"><i class="fas fa-ship"></i> EURP Features</h3>
+            <div class="command-cards">
+                <div class="command-card">
+                    <p style="color: #b19cd9;">$ship channelID</p>
+                    <p>Set an automatic ship reminder for EURP families.</p>
+                </div>
+                <div class="command-card">
+                    <p style="color: #b19cd9;">$offship</p>
+                    <p>Stop automatic reminders.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html">
+                        <img src="assets/zenbot.webp" alt="ZenBot Logo">
+                        <span>ZenBot</span>
+                    </a>
+                </div>
+                <ul class="footer-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#features">Features</a></li>
+                    <li><a href="commands.html">Commands</a></li>
+                    <li><a href="index.html#premium">Premium</a></li>
+                    <li><a href="index.html#changelog">Changelog</a></li>
+                    <li><a href="index.html#team">Team</a></li>
+                    <li><a href="index.html#faq">FAQ</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+                <div class="footer-social">
+                    <a href="https://twitter.com/ZenBotHQ" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://github.com/ZenBotHQ" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://discord.gg/ZenBotHQ" target="_blank"><i class="fab fa-discord"></i></a>
+                </div>
+                <div class="footer-legal">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                </div>
+                <p class="footer-copy">&copy; 2025 ZenBot. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/scripts.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'particles.json', function() {
+            console.log('particles.js loaded - callback');
+        });
+        const hamburger = document.querySelector('.hamburger-menu');
+        const menu = document.querySelector('.menu');
+    
+        hamburger.addEventListener('click', () => {
+            menu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

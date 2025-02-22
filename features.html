@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ZenBot - Features">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" href="assets/zenbot.webp" type="image/webp">
+    <title>ZenBot - Features</title>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+    <style>
+        @media (max-width: 768px) {
+            .hero-small {
+                height: 100vh; /* Full height of the viewport for mobile */
+            }
+            .scroll-indicator {
+                text-align: center;
+                margin-top: 20px;
+                display: block; /* Show on mobile */
+            }
+            .scroll-indicator p {
+                color: #fff;
+                font-size: 18px;
+                margin-bottom: 10px;
+                font-weight: 500;
+            }
+            .scroll-indicator a {
+                color: #fff;
+                font-size: 30px;
+                text-decoration: none;
+                display: inline-block;
+                transition: color 0.3s ease-in-out;
+            }
+            .scroll-indicator a:hover {
+                color: #ddd;
+            }
+            .scroll-indicator span {
+                display: inline-block;
+                animation: bounce 1s infinite;
+            }
+            @keyframes bounce {
+                0%, 20%, 50%, 80%, 100% {
+                    transform: translateY(0);
+                }
+                40% {
+                    transform: translateY(-10px);
+                }
+                60% {
+                    transform: translateY(-5px);
+                }
+            }
+        }
+        @media (min-width: 769px) {
+            .scroll-indicator {
+                display: none; /* Hide on PC */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/zenbot.webp" alt="ZenBot Logo">
+                    <span>ZenBot</span>
+                </a>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="index.html#features"><i class="fas fa-cogs"></i> Features</a></li>
+                <li><a href="commands.html"><i class="fas fa-terminal"></i> Commands</a></li>
+                <li><a href="index.html#premium"><i class="fas fa-gem"></i> Premium</a></li>
+                <li><a href="index.html#changelog"><i class="fas fa-history"></i> Changelog</a></li>
+                <li><a href="index.html#team"><i class="fas fa-users"></i> Team</a></li>
+                <li><a href="index.html#faq"><i class="fas fa-question-circle"></i> FAQ</a></li>
+                <li><a href="index.html#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+            <div class="add-bot">
+                <a href="https://discord.com/oauth2/authorize?client_id=YOUR_BOT_ID&permissions=YOUR_PERMISSIONS&scope=bot" target="_blank">Add Bot</a>
+            </div>
+            <div class="hamburger-menu" id="hamburger-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero hero-small">
+            <div id="particles-js"></div>
+            <div class="hero-content">
+                <h1>Special Features</h1>
+                <p>ZenBot comes packed with cutting-edge features to enhance moderation, automation, and engagement. From auto-role to giveaways, take full control of your community with ease.</p>
+            </div>
+            <div class="shape shape-1 circle"></div>
+            <div class="shape shape-2 square"></div>
+            <div class="shape shape-3 triangle"></div>
+            <div class="shape shape-4 line"></div>
+            <div class="shape shape-5 circle"></div>
+            <div class="shape shape-6 square"></div>
+            <div class="shape shape-7 triangle"></div>
+            <div class="shape shape-8 line"></div>
+            <div class="shape shape-9 circle"></div>
+            <div class="shape shape-10 circle"></div>
+            <div class="shape shape-11 square"></div>
+            <div class="shape shape-12 triangle"></div>
+            <div class="shape shape-13 line"></div>
+            <div class="shape shape-14 circle"></div>
+            <div class="shape shape-15 square"></div>
+            <div class="shape shape-16 h-line"></div>
+            <div class="shape shape-17 h-line"></div>
+            <div class="shape shape-18 h-line"></div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features">
+            <h2>ZenBot Features</h2>
+            <div class="scroll-indicator">
+                <p>Scroll Down</p>
+                <span>↓</span>
+            </div>
+            <div class="feature-cards">
+                <div class="feature-card">
+                    <h3><i class="fas fa-shield-alt"></i> Advanced Moderation</h3>
+                    <p><i class="fas fa-check-circle green-tick"></i> Ban, kick, timeout, warning system, and automated moderation.</p>
+                    <p><i class="fas fa-check-circle green-tick"></i> Manage server discipline efficiently.</p>
+                </div>
+                <div class="feature-card">
+                    <h3><i class="fas fa-user-plus"></i> Customizable Auto-Role</h3>
+                    <p><i class="fas fa-check-circle green-tick"></i> Automatically assigns roles to new members upon joining.</p>
+                    <p><i class="fas fa-check-circle green-tick"></i> Supports multiple role configurations.</p>
+                </div>
+                <div class="feature-card">
+                    <h3><i class="fas fa-gift"></i> Giveaway System</h3>
+                    <p><i class="fas fa-check-circle green-tick"></i> Create and manage automated giveaways.</p>
+                    <p><i class="fas fa-check-circle green-tick"></i> Configure time, number of winners, and prize.</p>
+                </div>
+                <div class="feature-card">
+                    <h3><i class="fas fa-ticket-alt"></i> Private & Anonymous Support Ticketing</h3>
+                    <p><i class="fas fa-check-circle green-tick"></i> Secure and private ticket system for users to report issues or seek support.</p>
+                    <p><i class="fas fa-check-circle green-tick"></i> Anonymous mode available for privacy-focused concerns.</p>
+                </div>
+                <div class="feature-card">
+                    <h3><i class="fas fa-envelope-open-text"></i> Welcome Messages</h3>
+                    <p><i class="fas fa-check-circle green-tick"></i> Customizable welcome messages for new members.</p>
+                    <p><i class="fas fa-check-circle green-tick"></i> Personalize greetings with user information and emojis.</p>
+                </div>
+                <div class="feature-card">
+                    <h3><i class="fas fa-calendar-alt"></i> Event Reminder System</h3>
+                    <p><i class="fas fa-check-circle green-tick"></i> Schedule and send automated reminders for events.</p>
+                    <p><i class="fas fa-check-circle green-tick"></i> Supports recurring and one-time reminders.</p>
+                </div>
+                <div class="feature-card">
+                    <h3><i class="fas fa-coins"></i> Points & Rewards System</h3>
+                    <p><i class="fas fa-check-circle green-tick"></i> Award points to users based on activity and participation.</p>
+                    <p><i class="fas fa-check-circle green-tick"></i> Customizable point allocation and tracking.</p>
+                </div>
+                <div class="feature-card">
+                    <h3><i class="fas fa-poll"></i> Poll Creation</h3>
+                    <p><i class="fas fa-check-circle green-tick"></i> Create interactive polls for users to vote on.</p>
+                    <p><i class="fas fa-check-circle green-tick"></i> Supports multiple-choice options.</p>
+                </div>
+                <div class="feature-card">
+                    <h3><i class="fas fa-terminal"></i> Custom Commands</h3>
+                    <p><i class="fas fa-check-circle green-tick"></i> Create and manage personalized commands.</p>
+                    <p><i class="fas fa-check-circle green-tick"></i> Assign responses to specific keywords.</p>
+                </div>
+                <div class="feature-card">
+                    <h3><i class="fas fa-file-alt"></i> Logging System</h3>
+                    <p><i class="fas fa-check-circle green-tick"></i> Detailed logs for moderation actions and user activity.</p>
+                    <p><i class="fas fa-check-circle green-tick"></i> Includes message deletion, role changes, and more.</p>
+                </div>
+                <div class="feature-card">
+                    <h3><i class="fas fa-chart-line"></i> Server Analytics</h3>
+                    <p><i class="fas fa-check-circle green-tick"></i> Insights into server activity and engagement.</p>
+                    <p><i class="fas fa-check-circle green-tick"></i> View user engagement trends and statistics.</p>
+                </div>
+                <div class="feature-card">
+                    <h3><i class="fas fa-shield-virus"></i> Anti-Spam & Security</h3>
+                    <p><i class="fas fa-check-circle green-tick"></i> Protect your server from spam and malicious users.</p>
+                    <p><i class="fas fa-check-circle green-tick"></i> Configurable anti-spam filters and detection.</p>
+                </div>
+                <div class="feature-card">
+                    <h3><i class="fas fa-user-tag"></i> Role Management</h3>
+                    <p><i class="fas fa-check-circle green-tick"></i> Assign and remove roles automatically or manually.</p>
+                    <p><i class="fas fa-check-circle green-tick"></i> Supports bulk role assignments.</p>
+                </div>
+                <div class="feature-card">
+                    <h3><i class="fas fa-hashtag"></i> Channel Management</h3>
+                    <p><i class="fas fa-check-circle green-tick"></i> Lock, unlock, and manage channels with ease.</p>
+                    <p><i class="fas fa-check-circle green-tick"></i> Automatically moderate message content.</p>
+                </div>
+                <div class="feature-card">
+                    <h3><i class="fas fa-plug"></i> Integration Support</h3>
+                    <p><i class="fas fa-check-circle green-tick"></i> Compatibility with third-party APIs and extensions.</p>
+                    <p><i class="fas fa-check-circle green-tick"></i> Expand bot functionalities with external services.</p>
+                </div>
+                <div class="feature-card">
+                    <h3><i class="fas fa-ship"></i> EURP Features</h3>
+                    <p><i class="fas fa-check-circle green-tick"></i> Automatic reminders for EURP Families.</p>
+                    <p><i class="fas fa-check-circle green-tick"></i> Server-specific roleplay enhancements.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html">
+                        <img src="assets/zenbot.webp" alt="ZenBot Logo">
+                        <span>ZenBot</span>
+                    </a>
+                </div>
+                <ul class="footer-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#features">Features</a></li>
+                    <li><a href="commands.html">Commands</a></li>
+                    <li><a href="index.html#premium">Premium</a></li>
+                    <li><a href="index.html#changelog">Changelog</a></li>
+                    <li><a href="index.html#team">Team</a></li>
+                    <li><a href="index.html#faq">FAQ</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+                <div class="footer-social">
+                    <a href="https://twitter.com/ZenBotHQ" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://github.com/ZenBotHQ" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://discord.gg/ZenBotHQ" target="_blank"><i class="fab fa-discord"></i></a>
+                </div>
+                <div class="footer-legal">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                </div>
+                <p class="footer-copy">&copy; 2025 ZenBot. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/scripts.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'particles.json', function() {
+            console.log('particles.js loaded - callback');
+        });
+        const hamburger = document.querySelector('.hamburger-menu');
+        const menu = document.querySelector('.menu');
+    
+        hamburger.addEventListener('click', () => {
+            menu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
