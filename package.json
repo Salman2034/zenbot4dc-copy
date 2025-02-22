@@ -1,0 +1,18 @@
+{
+  "name": "zenbot",
+  "version": "1.0.0",
+  "description": "Zenbot For Discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "netlify dev"
+  },
+  "dependencies": {
+    "nodemailer": "^6.6.3"
+  },
+  "devDependencies": {
+    "netlify-cli": "^16.4.2"
+  },
+  "author": "Salman Sami",
+  "license": "ISC"
+}
