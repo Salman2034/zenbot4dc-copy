@@ -14,14 +14,14 @@ exports.handler = async (event, context) => {
   const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'your-email@gmail.com',
-      pass: 'your-email-password',
+      user: ' ZenbotAssist@gmail.com',
+      pass: 'ZingiBotSupportAid2025',
     },
   });
 
   const mailOptions = {
     from: email,
-    to: 'your-email@gmail.com',
+    to: ' ZenbotAssist@gmail.com',
     subject: `New Contact Form Submission: ${subject}`,
     text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
   };
